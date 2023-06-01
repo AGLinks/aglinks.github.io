@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <style>
+    <style>
         #bar {
             background-color: blue;
         }
+
         #menu ul li {
             display: inline;
             float: left;
         }
+
+        #menu ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
         #form {
             padding-left: 30px;
         }
@@ -17,28 +25,13 @@
 </head>
 <body> 
     <div id="bar">
-
         <div id="menu">
             <ul>
-                <li id="current"><a href="index.html">Home</a>
-                </li>
-                <li><a href="index.html">Archives</a>
-                </li>
-                <li><a href="index.html">Profile</a>
-                </li>
-                <li><a href="index.html">Followers</a>
-                </li>
-                <li><a href="index.html">Support</a>
-                </li>
+                <li id="current"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Skola</a></li>
+                <li><a href="index.html">Spel</a></li>
+                <li><a href="index.html">Annat</a></li>
             </ul>
-        </div>
-
-        <div id="form">
-            <form method="get" action="http://www.google.com/custom">
-                <input name="q" size="25" maxlength="255" value="" type="text" />
-                <input name="sa" value="search" type="submit" />
-                <input name="cof" value="" type="hidden" />
-            </form>
         </div>
     </div>
     <h2>2048</h2> 
